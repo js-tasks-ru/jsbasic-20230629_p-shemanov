@@ -1,11 +1,9 @@
 function ucFirst(str) {
-  let result = '';
-
-  if(str && str !== ''){
+  if(str){
     const firstLetter = str[0].toUpperCase();
     let secondPart = str.slice(1);
-    result = firstLetter + secondPart;
+    return firstLetter + secondPart;
   }
 
-  return result;
+  return '';
 }
