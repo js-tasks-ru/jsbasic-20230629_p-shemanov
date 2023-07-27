@@ -4,7 +4,7 @@ function initCarousel() {
   let arrows = document.querySelectorAll('.carousel__arrow');
   let carouselInner = document.querySelector('.carousel__inner');
   let counter = 0;
-  let slideWidth = document.querySelector('.carousel').offsetWidth;
+  let slideWidth = document.querySelector('.carousel__inner').offsetWidth;
 
   leftArrow.style.display = 'none';
 
