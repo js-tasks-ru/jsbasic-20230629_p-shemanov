@@ -15,7 +15,7 @@ function initCarousel() {
   });
 
   leftArrow.addEventListener('click', function(){
-    --counter;
+    counter--;
     let shift = 'translateX(-' + counter * slideWidth + 'px)';
     carouselInner.style.transform = shift;
   });
